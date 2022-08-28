@@ -1,0 +1,10 @@
+n, m = int(input("перше число: ")), int(input("друге число: "))
+addition = n + m
+sub = n - m
+division = n / m
+multipl = n * m
+power = n ** m
+modn = abs(n)
+modm = abs(m)
+floor = n // m
+print(addition, sub, division, multipl, power, modn, modm, floor, sep ="\n")
